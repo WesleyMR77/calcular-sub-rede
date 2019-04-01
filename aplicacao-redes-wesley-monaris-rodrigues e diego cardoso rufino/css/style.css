@@ -1,0 +1,66 @@
+ /* PÁGINA HOME */
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(157, 157, 182); */
+    background-color: white; 
+    color: black;
+}
+
+.img-home{
+    max-width: 20vw;
+    border-radius: 500px;
+}
+
+.img-center-home{
+    text-align: center;
+    margin-top: 15vh;
+}
+.img-div-home{
+    display: flex;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.img-left-home{
+    margin-left: 25vw;
+}
+
+.img-right-home{
+    margin-left: 10vw;
+}
+.color-home{
+    color: white;
+}
+
+/* ENDEREÇAMENTO IP*/
+
+#etapa1{
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 2em;
+}
+.input-enderecamento{
+    width: 20vw;
+    height: 3vh;
+}
+.resp-enderecamento{
+    text-align: center;
+    list-style: none; 
+}
+
+.button-enderecamento{
+    width: 5vw;
+    height: 4vh;
+    font-size: 0.5em;
+}
+
+/* SUB REDES */
+
+.ul-subrede{
+    background-color: aqua;
+    overflow: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    list-style: none;
+}

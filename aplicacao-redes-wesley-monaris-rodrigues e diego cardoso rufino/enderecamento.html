@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+ 
+    <title>aplication</title>
+</head>
+<body>
+
+    <form id="calc" name="calc">
+        <label for="">Entre com IP</label> <br>
+        <input class="input-enderecamento" type="text" name="ip"> <br>
+        <input class="button-enderecamento" type="button" value="Enviar" onclick="functionIP()">
+        <!-- <input type="button" value="Reset"> -->
+    </form>
+
+    <div>
+        <ul class="resp-enderecamento">
+            <li id="classe"></li>
+            <li id="rede"></li>
+            <li id="redei"></li>
+            <li id="redef"></li>
+            <li id="brodcast"></li>
+            <li id="reservadoLAN"></li>
+        </ul>
+    </div>
+        <script src="script/enderecamento.js"></script>
+</body>
+</html>
+
+
+

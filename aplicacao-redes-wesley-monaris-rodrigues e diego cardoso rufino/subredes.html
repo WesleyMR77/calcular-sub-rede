@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+ 
+    <title>aplication</title>
+</head>
+<body>
+
+    <form id="etapa1" name="etapa1">
+        <h2>ETAPA 1</h2>
+        <label for="">Entre com IP</label> <br>
+        <input class="input-enderecamento" type="text" name="ip"> <br>
+
+        <label for="">Quantidade mínima de sub-redes</label> <br>
+        <input class="min_sub" type="text" name="min_sub"> <br>
+
+        <!-- <input type="radio" name="opcoes" value="host"> Host 
+        <input type="radio" name="opcoes" value="rede"> Rede <br> 
+        <label for="">Emprestar Quantos?</label> <br> 
+        <input type="text"> -->
+        <input class="button-enderecamento" type="button" value="Enviar" onclick="Etapa1()">
+    </form>
+
+    <div>
+        <ul class="ul-subrede">
+            <li id="classe"></li>
+            <li id="reservadoLAN"></li>
+            <li id="bits"> </li>
+            <li id="mascara_result"></li>
+            <li id="quant_host"></li>
+            <li id="quant_rede"></li>
+        </ul>
+    </div>
+
+
+    <form id="etapa1" name="etapa2">
+        <h2>ETAPA 2</h2>
+        <label for="">Entre com IP</label> <br>
+        <input class="input-enderecamento" type="text" name="ip"> <br>
+
+        <label for="">Quantidade de hosts por sub-rede</label> <br>
+        <input class="min_sub" type="text" name="quant_hot"> <br>
+        <input class="button-enderecamento" type="button" value="Enviar" onclick="Etapa2()">
+    </form>
+
+
+    <form id="etapa1" name="etapa3">
+        <h2>ETAPA 3</h2>
+        <label for="">Entre com IP</label> <br>
+        <input class="input-enderecamento" type="text" name="ip"> <br>
+
+        <label for="">Insira a Mascara Desejada</label> <br>
+        <input class="min_sub" type="text" name="mascara"> <br>
+        <input class="button-enderecamento" type="button" value="Enviar" onclick="Etapa3()">
+    </form>
+
+        <script src="script/subredes.js"></script>
+</body>
+</html>
